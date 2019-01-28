@@ -57,6 +57,9 @@ class Song
     song.artist_name = (name.split(" - ")[0])
     song
   end
+  
+  def self.create_filename(name)
+    
 
   def save
     self.class.all << self
